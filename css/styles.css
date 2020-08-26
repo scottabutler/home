@@ -6,6 +6,11 @@ body {
     margin: 0px;
 }
 
+a, a:visited {
+    color: #cf1e24;
+    text-decoration: underline;
+}
+
 header {
     padding: 15px;
     background-color: #373b46;
@@ -21,7 +26,7 @@ header .avatar {
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 header h1 {
@@ -35,7 +40,27 @@ main {
     padding: 15px;
     color: #383840;
 }
+main h1 {
+    font-size: 30px;
+}
 
 main .text {
-    font-size: 20px;
+    font-size: 18px;
+}
+main .project {
+    border-bottom: 1px solid #a9a9ab;
+    padding-bottom: 10px;
+}
+main .project div {
+    font-size: 18px;
+}
+main .project .links {
+    margin: 10px 0;
+}
+main .project .links a {
+    margin-right: 10px;
+}
+
+pre {
+    display: inline;
 }
