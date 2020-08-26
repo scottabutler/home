@@ -1,0 +1,41 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    /* color: #a9a9ab; */
+    background-color: #fff;
+    margin: 0px;
+}
+
+header {
+    padding: 15px;
+    background-color: #373b46;
+    text-align: center;
+}
+
+header .avatar {
+    background-image: url('/images/profile.jpg');
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #a9a9ab;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 15px;
+    color: #383840;
+}
+
+main .text {
+    font-size: 20px;
+}
