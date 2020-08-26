@@ -13,7 +13,7 @@ header {
 }
 
 header .avatar {
-    background-image: url('images/profile.jpg');
+    background-image: url('../images/profile.jpg');
     background-position: center;
     background-size: contain;
     border-radius: 50%;
