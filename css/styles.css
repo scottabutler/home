@@ -39,6 +39,7 @@ header h1 {
 main {
     padding: 15px;
     color: #383840;
+    margin: 0 10%;
 }
 main h1 {
     font-size: 30px;
@@ -48,17 +49,30 @@ main .text {
     font-size: 18px;
 }
 main .project {
-    border-bottom: 1px solid #a9a9ab;
-    padding-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+main .project h2 {
+    margin-top: 0;
 }
 main .project div {
     font-size: 18px;
 }
+main .project li {
+    margin-bottom: 15px;
+}
 main .project .links {
-    margin: 10px 0;
+    margin-top: 10px;
 }
 main .project .links a {
     margin-right: 10px;
+}
+main .project.domain {
+    background-color: #007d1f0d;
+}
+main .project.ptvapi {
+    background-color: #419dca17;
 }
 
 pre {
