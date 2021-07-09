@@ -74,6 +74,9 @@ main .project.domain {
 main .project.ptvapi {
     background-color: #419dca17;
 }
+main .project.mastermind {
+    background-color: #8134ca10;
+}
 
 pre {
     display: inline;
